@@ -39,13 +39,13 @@ public class Test {
   }
 
   /**
-   * Complexity example (n) Print the values from 1 to n
+   * Complexity example O(n) Print the values from 1 to n
    *
    * @param n positive integer
    */
   public void printUpToN(int n) {
     for (int i = 1; i <= n; i++) {
-      System.out.println(n);
+      System.out.println(i);
     }
   }
 
@@ -61,7 +61,7 @@ public class Test {
   }
 
   /**
-   * Complexity example of (n) Print the elements of an integer array
+   * Complexity example of 0(n) Print the elements of an integer array
    *
    * @param array integer array
    */
